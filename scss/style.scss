@@ -8,6 +8,9 @@
   vertical-align: baseline;
 }
 
+$color: #FD665E;
+$second_font: "Tinos", serif;
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -47,9 +50,6 @@ input::-webkit-input-placeholder {
   transition: opacity 0.3s ease;
 }
 
-html::-webkit-scrollbar {
-  width: 0;
-}
 
 ::selection {
   color: white;
@@ -57,7 +57,6 @@ html::-webkit-scrollbar {
 }
 
 html {
-  height: 100%;
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -67,8 +66,8 @@ a {
 }
 
 .logo {
-  color: #FD665E;
-  font-family: "Tinos", serif;
+  color: $color;
+  font-family: $second_font;
   font-size: 30px;
   font-weight: bold;
   margin-top: 20px;
@@ -103,7 +102,7 @@ a {
 
 
 .signup_button {
-  background: #FD665E;
+  background: $color;
   padding: 16px;
   margin-left: 1vw;
   border-radius: 4px;
@@ -121,7 +120,7 @@ a {
   h1 {
     width: 50%;
     font-weight: bold;
-    font-family: "Tinos", serif;
+    font-family: $second_font;
     font-size: 100px;
     margin: 100px 0;
   }
@@ -130,7 +129,7 @@ a {
     margin: 100px auto;
     width: 30%;
     font-weight: bold;
-    font-family: "Tinos", serif;
+    font-family: $second_font;
     font-size: 40px;
     text-align: center;
   }
@@ -139,13 +138,13 @@ a {
     margin: 100px 0;
     width: 30vw;
     font-weight: bold;
-    font-family: "Tinos", serif;
+    font-family: $second_font;
     font-size: 40px;
   }
 }
 
 .red {
-  color: #FD665E;
+  color: $color;
 }
 
 .introPart {
@@ -160,7 +159,7 @@ a {
 
   a {
     color: white;
-    background: #FD665E;
+    background: $color;
     padding: 16px;
     border-radius: 4px;
   }
@@ -216,7 +215,7 @@ a {
 
   a {
     color: white;
-    background: #FD665E;
+    background: $color;
     padding: 16px;
     border-radius: 4px;
   }
@@ -268,7 +267,7 @@ a {
   p {
     font-size: 70px;
     font-weight: bold;
-    font-family: "Tinos", serif;
+    font-family: $second_font;
   }
 }
 
@@ -278,7 +277,7 @@ a {
 
 .button_contain1 a {
   color: white;
-  background: #FD665E;
+  background: $color;
   padding: 16px;
   border-radius: 4px;
 }
@@ -314,8 +313,8 @@ footer {
 
 
 .logo1 {
-  color: #FD665E;
-  font-family: "Tinos", serif;
+  color: $color;
+  font-family: $second_font;
   font-size: 30px;
   font-weight: bold;
   margin-top: 10px;

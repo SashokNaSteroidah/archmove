@@ -46,17 +46,12 @@ input::-webkit-input-placeholder {
   transition: opacity 0.3s ease;
 }
 
-html::-webkit-scrollbar {
-  width: 0;
-}
-
 ::selection {
   color: white;
   background: rgb(0, 0, 0);
 }
 
 html {
-  height: 100%;
   font-family: "Source Sans Pro", sans-serif;
 }
 
